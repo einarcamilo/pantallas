@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+
+}
+
+.main-container{
+    padding: 50px;
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+.card{
+    width: 80vw;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    border: darkgray 1px solid;
+    box-shadow: 7px 6px 5px rgba(0,0,0,.5);
+
+}
+
+.card-header{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 50px auto 0;
+}
+.card-img{
+    display: block;
+    margin: 0 auto;
+}
+
+#icon{
+    width: 100px;
+}
+
+.card-title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Roboto";
+}
+
+.card-content{
+    width: 90%;
+    margin: 50px auto 0;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#mainImage{
+    width: 70%;
+}
+
+.card-text{
+    width: 90%;
+    margin: 50px auto 0;
+    text-align: center;
+    font-family: "Roboto";
+    background-color: aliceblue;
+}
+
+.card-button{
+    display: block;
+    width: 60%;
+    margin: 50px auto 80px;
+    border-radius: 35px;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    background-color: rgba(0, 123, 255, 0.84);
+    border: none;
+}
